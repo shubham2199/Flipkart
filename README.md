@@ -27,17 +27,17 @@ Clean raw data (CSV, JSON, text, etc.) by:
 - Tokenization
 
 
-2️⃣ Convert Data to Vectors (Embeddings)
+## 2️⃣ Convert Data to Vectors (Embeddings)
 
 Once the data is cleaned, convert each text entry into a high-dimensional vector representation using a pre-trained model. 
 These embeddings will be used for semantic search in Astra DB.
 
 
-3️⃣ Upload Vector Data to DataStax Astra DB
+## 3️⃣ Upload Vector Data to DataStax Astra DB
 
 After generating vector embeddings, the next step is to upload them to DataStax Astra DB using the cassio library, which makes it easy to work with vector-enabled Cassandra databases.
 
 
-4️⃣ Vector Search in DataStax Astra DB
+## 4️⃣ Vector Search in DataStax Astra DB
 
 Once your embeddings are stored, you can perform semantic search using a query vector.
